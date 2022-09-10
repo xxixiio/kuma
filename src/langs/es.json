@@ -1,0 +1,54 @@
+{
+    "help": {
+        "mainMenu_title": "Menú de ayuda",
+        "mainMenu_description": "Hola, soy {client.user}! \n\n**Comandos**\nUsa el menú de abajo para seleccionar una categoría.\nSi necesitas más detalles, puedes usar `/help (command)`\n\n**Enlaces**\n> [¡Invitame!]({invite})\n> [Servidor de soporte.](https://discord.gg/tqdYpp9)",
+        "doesntExist": "¡Ese comando no existe!"
+    },
+    "lang": {
+        "availableLangs": "**Idiomas disponibles:** ",
+        "translateMe": "¿Quieres traducirme? ¡Únete a mi Discord!",
+        "changedLang": "¡Ahora estoy en Español!"
+    },    
+    "eightball": {
+        "responses": [ 
+            "¡Sí!",
+            "No.",
+            "Probablement.",
+            "Probablemente no.",
+            "Claro que sí.",
+            "¿Por qué?",
+            "¡No pienses en ello!",
+            "Sí, sí, síííííí!",
+            "No, no, no, NO!",
+            "Lo siento, no puedo responder a esa pregunta.",
+            "No lo sé.",
+            "...",
+            "Cof, cof... *Sí*...",
+            "Cof, cof... *No*..."
+        ]
+    },
+    "achievement": {
+        "lengthLimit": "El texto no puede contener más de 20 carácteres."
+    },
+    "coinflip": {
+        "coin": ["Cara", "Cruz"],
+        "response": "💰 Ha salido **{coin}**!"
+    },
+    "rate": {
+        "rating": "💭 Le doy a **{toRate}** un **{rating}**."
+    },
+    "snipe": {
+        "noMessage": "No se ha encontrado ningún mensaje borrado recientemente en este canal.",
+        "noTextChannel": "¡Tienes que seleccionar un canal de texto!"
+    },
+    "editsnipe": {
+        "noMessage": "No se ha encontrado ningún mensaje borrado recientemente en este canal.",
+        "noTextChannel": "¡Tienes que seleccionar un canal de texto!"
+    },
+    "invite": {
+        "clickme": "¡Púlsame!",
+        "title": "¡Invitame!",
+        "invite": "Invitación:",
+        "server": "Servidor:"
+    }
+}

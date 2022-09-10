@@ -1,0 +1,55 @@
+{
+    "help": {
+        "mainMenu_title": "Help Menu",
+        "mainMenu_description": "Hi, I'm {client.user}! \n\n**Commands**\nUse the menu below to select a category.\nIf you need more details, you can use `/help (command)`\n\n**Links**\n> [Invite me!]({invite})\n> [Support server.](https://discord.gg/tqdYpp9)",
+        "doesntExist": "That command doesn't exist!",
+        "command_description": "{description}\n**Don't use <> or () when using the command.**\n\n**Usage:** {usage}"
+    },
+    "lang": {
+        "availableLangs": "**Languages available:** ",
+        "translateMe": "Do you want to translate me? Join my Discord!",
+        "changedLang": "Now I'm in English!"
+    },
+    "eightball": {
+        "responses": [
+            "Yes!",
+            "No.",
+            "Probably.",
+            "Probably not.",
+            "Surely yes.",
+            "Why?",
+            "Do not think about it!",
+            "Yes, yes, yessss!",
+            "No, no, no, NO!",
+            "Sorry, I can't answer your question.",
+            "I don't know.",
+            "...",
+            "Cough, cough... *Yes*...",
+            "Cough, cough... *No*..."
+        ]
+    },
+    "achievement": {
+        "lengthLimit": "The text can't have more than 20 characters."
+    },
+    "coinflip": {
+        "coin": ["Head", "Tail"],
+        "response": "💰 You got **{coin}**!"
+    },
+    "rate": {
+        "rating": "💭 I rate **{toRate}** with a **{rating}**."
+    },
+    "snipe": {
+        "noMessage": "No deleted message found in that channel.",
+        "noTextChannel": "You must select a Text Channel!"
+    },
+    "editsnipe": {
+        "noMessage": "No edited message found in that channel.",
+        "noTextChannel": "You must select a Text Channel!"
+    },
+    "invite": {
+        "clickme": "Click me!",
+        "title": "Invite me!",
+        "invite": "Invite:",
+        "server": "Server:"
+    }
+}

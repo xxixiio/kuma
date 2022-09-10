@@ -1,0 +1,25 @@
+const Discord = require("discord.js");
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+    name: "subcommand",
+    description: "a",
+    options: [],
+    dm: true,
+    run: async (client, interaction) => {
+
+        if(interaction.options.getSubcommand() == "test") {
+            interaction.reply("djsdgsdjhg")
+        }
+
+        },
+    subCommands: [{
+        name: "test",
+        description: "b",
+        options: [{type: "string", name: "a", descripti009on: "a", required: true, choices: [{ "name": "1", "value": "one"}, { "name": "2", "value": "two"}]}, {type: "boolean", name: "no", description: "yes", required: false, choices: []}],
+        run: async (client, interaction) => {
+
+        }
+    }]
+
+    }      
