@@ -1,0 +1,16 @@
+const Discord = require("discord.js");
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+    name: "command",
+    description: "a",
+    category: "utility",
+    memberPermissions: Discord.PermissionFlagsBits.KickMembers,
+    options: [{type: "string", name: "a", description: "a", required: true, choices: [{ "name": "1", "value": "one"}, { "name": "2", "value": "two"}]}, {type: "boolean", name: "no", description: "yes", required: false, choices: []}],
+    dm: false,
+    run: async (client, interaction) => {
+
+        interaction.reply("a")
+
+        }
+    }      
